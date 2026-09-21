@@ -5,6 +5,12 @@
 This repository preserves and republishes a 2013 master's thesis in
 Environmental Engineering & Management:
 
+## Video: I Proposed a Desalination Plant Concept Before It Was Built — What Happened 13 Years Later?
+
+[![Watch the project overview](https://img.youtube.com/vi/MIaWry3dgDw/maxresdefault.jpg)](https://youtu.be/MIaWry3dgDw)
+
+Watch the video for presentation of retrospective analysis.
+
 **Systems Analysis of Power and Water Cogeneration: A Case Study in Accra, Ghana**
 
 The original thesis examined water and energy infrastructure in Greater
