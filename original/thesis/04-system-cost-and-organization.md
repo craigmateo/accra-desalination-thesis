@@ -54,17 +54,7 @@ The production costs of electricity are expressed in US$/MWh or cents/kWh depend
 
 Present value is used for economic comparison of different plants. All of the costs are discounted to a reference time (usually plant start-up date) to obtain the present value. The cost of electricity (US$/MWh) is calculated as:
 
-$$
-Y_{el}
-=
-\frac{TCR\,\Psi}{P\,T}
-+
-\frac{Y_F}{\eta}
-+
-\frac{U_{fix}}{P\,T_{eq}}
-+
-u_{var}
-$$
+$$ Y_{el} = \frac{TCR\,\Psi}{P\,T} + \frac{Y_F}{\eta} + \frac{U_{fix}}{P\,T_{eq}} + u_{var} $$
 
 *Equation 4.2.1.*
 
@@ -73,12 +63,7 @@ where:
 - **TCR** — total capital requirement to be written off: current value of all expenses during planning, procurement, construction, and commissioning, including the price of the plant and interest during construction (US$).
 - **Ψ** — annuity factor:
 
-$$
-\Psi
-=
-\frac{q-1}{1-q^{-n}}
-\;[1/a]
-$$
+$$ \Psi = \frac{q-1}{1-q^{-n}} \; [1/a] $$
 
 - **P** — rated power output (MW).
 - **T_eq** — equivalent utilization time at rated power output, in hours per annum (h/a).
