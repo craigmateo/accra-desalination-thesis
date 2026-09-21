@@ -30,11 +30,11 @@ The dissertation was composed by me and is based on my own work. Where the work 
 
 Name
 
-Craig Matthew Frayne
+Craig Frayne
 
 Student registration number
 
-91254
+-
 
 Signed
 
