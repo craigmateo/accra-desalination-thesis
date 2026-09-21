@@ -5,11 +5,13 @@
 This repository preserves and republishes a 2013 master's thesis in
 Environmental Engineering & Management:
 
-## Video: I Proposed a Desalination Plant Concept Before It Was Built — What Happened 13 Years Later?
+## DOI
 
-[![Watch the project overview](https://img.youtube.com/vi/MIaWry3dgDw/maxresdefault.jpg)](https://youtu.be/MIaWry3dgDw)
+This 2026 archival edition is assigned the following DOI:
 
-Watch the video for presentation of retrospective analysis.
+**10.5281/zenodo.22882623**
+
+The DOI refers to the 2026 archival release containing the original 2013 master’s thesis, its Markdown transcription and figures, and the 2026 retrospective. It does not retroactively assign a 2013 DOI to the original thesis.
 
 **Systems Analysis of Power and Water Cogeneration: A Case Study in Accra, Ghana**
 
@@ -39,9 +41,7 @@ plant subsequently constructed in Ghana.
 
 ## Citation
 
-Citation metadata is provided in `CITATION.cff`.
-
-A DOI will be added after the repository is archived as a release.
+Frayne, Craig. 2026. *Systems Analysis of Power and Water Cogeneration in Accra, Ghana: 2013 Master’s Thesis with 2026 Retrospective*. Zenodo. https://doi.org/10.5281/zenodo.22882623
 
 ## Author
 
@@ -49,3 +49,13 @@ Craig Frayne
 
 Original thesis: Bauhaus-Universität Weimar, 2013  
 Retrospective edition: 2026
+
+---
+
+## Video: I Proposed a Desalination Plant Concept Before It Was Built — What Happened 13 Years Later?
+
+[![Watch the project overview](https://img.youtube.com/vi/MIaWry3dgDw/maxresdefault.jpg)](https://youtu.be/MIaWry3dgDw)
+
+Watch the video for presentation of retrospective analysis.
+
+---

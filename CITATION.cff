@@ -1,18 +1,28 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite it using the metadata below."
+
 title: "Systems Analysis of Power and Water Cogeneration in Accra, Ghana: 2013 Master's Thesis with 2026 Retrospective"
+
 type: dataset
+
 authors:
-  - family-names: Frayne
-    given-names: Craig
-date-released: 2026-09-21
+  - family-names: "Frayne"
+    given-names: "Craig"
+
+date-released: "2026-09-21"
 version: "1.0.0"
-repository-code: "https://github.com/YOUR-USERNAME/accra-desalination-thesis"
+
+doi: "10.5281/zenodo.22882623"
+
+repository-code: "https://github.com/craigmateo/accra-desalination-thesis"
+
 abstract: >
-  Historical publication of a 2013 master's thesis examining water-energy
+  Archival publication of a 2013 master's thesis examining water-energy
   infrastructure and seawater desalination in Accra, Ghana, accompanied by
   a 2026 retrospective on the subsequent history of the Teshie-Nungua
-  desalination project.
+  desalination project. The release includes the original thesis, an archival
+  Markdown transcription, extracted figures, and retrospective commentary.
+
 keywords:
   - desalination
   - Accra
@@ -24,3 +34,13 @@ keywords:
   - infrastructure policy
   - water access
   - water affordability
+
+preferred-citation:
+  type: thesis
+  authors:
+    - family-names: "Frayne"
+      given-names: "Craig"
+  title: "Systems Analysis of Power and Water Cogeneration in Accra, Ghana: 2013 Master's Thesis with 2026 Retrospective"
+  year: 2026
+  doi: "10.5281/zenodo.22882623"
+  thesis-type: "Master's thesis with 2026 retrospective"
