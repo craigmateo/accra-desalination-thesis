@@ -1,7 +1,7 @@
 # Project Timeline
 
 ## 2013
-Master's thesis completed at Bauhaus-Universität Weimar.
+Master's thesis completed.
 
 ## 2015
 Teshie-Nungua seawater reverse-osmosis desalination plant inaugurated.
