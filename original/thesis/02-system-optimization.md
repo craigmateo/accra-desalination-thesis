@@ -1,14 +1,21 @@
 <!--
 Markdown transcription of the original 2013 thesis PDF.
+
 Text and organization are preserved as closely as practical from PDF extraction.
-For equations, complex tables, page layout, and embedded third-party figures, consult the original PDF.
+Figures are linked from `../figures/NN-figure.png`.
+Tables have been reconstructed as Markdown tables where the extraction was recoverable.
+Equations have been restored in LaTeX where the surrounding text made the expression clear.
+Where exact notation could not be recovered, this is explicitly noted and the original PDF
+should be treated as authoritative.
 -->
 
-# Chapter 2 - System Optimization
+# Chapter 2 — System Optimization
 
 This chapter uses multi-criteria decision analysis to determine the optimal choices for water and energy supply in the Greater Accra region. Operations research methods are used to determine the optimal engineering activity to be undertaken.
 
-**Figure 8:** This chapter deals with the optimization component of systems analysis. Image source: (Arnold, 2010).
+![Figure 8. This chapter deals with the optimization component of systems analysis. Image source: Arnold (2010).](../figures/08-figure.png)
+
+*Figure 8. This chapter deals with the optimization component of systems analysis. Image source: Arnold (2010).*
 
 ## 2.1 Water Resource Assessment
 
@@ -20,11 +27,13 @@ The Greater Accra Metropolitan Area (GAMA) has a population of between 3.4 and 3
 
 <!-- PDF page 30 -->
 
-Several scenarios have been mapped for future water supply in the region, including the optimal “Vision 2030” scenario where there is 100% access to uninterrupted water supply and the population is about 7.7 million (SWITCH EU, 2011). At standard consumption rates of 130 litres per capita per day, this will require a system with the capacity of delivering between 1,000,000–2,000,000 m3/day of uninterrupted water supply, depending on population growth.
+Several scenarios have been mapped for future water supply in the region, including the optimal “Vision 2030” scenario where there is 100% access to uninterrupted water supply and the population is about 7.7 million (SWITCH EU, 2011). At standard consumption rates of 130 litres per capita per day, this will require a system with the capacity of delivering between 1,000,000–2,000,000 m³/day of uninterrupted water supply, depending on population growth.
 
-**Figure 9:** Projected water demand scenarios for the Greater Accra Region (SWITCH EU, 2011).
+![Figure 9. Projected water-demand scenarios for the Greater Accra Region (SWITCH EU, 2011).](../figures/09-figure.png)
 
-Currently, the utility provider GWCL (Ghana Water Company Limited) supplies 365,000m3/day, while the current demand estimated to be up to 500,000m3/day (UN, 2010). Therefore, current capacity must increase by 135,000m3/day in the immediate term and long term supply capacity must at least triple by 2030. Also, because of legal and financial barriers faced by the poor, it is primarily citizens of a higher income demographic who are connected to the water utility network. If the goal of 100% coverage is to be reached, a combination of measures must be taken to expand the network and include all segments of the population.
+*Figure 9. Projected water-demand scenarios for the Greater Accra Region (SWITCH EU, 2011).*
+
+Currently, the utility provider GWCL (Ghana Water Company Limited) supplies 365,000m³/day, while the current demand estimated to be up to 500,000m³/day (UN, 2010). Therefore, current capacity must increase by 135,000m³/day in the immediate term and long term supply capacity must at least triple by 2030. Also, because of legal and financial barriers faced by the poor, it is primarily citizens of a higher income demographic who are connected to the water utility network. If the goal of 100% coverage is to be reached, a combination of measures must be taken to expand the network and include all segments of the population.
 
 ### 2.1.2 Surface Water Resources
 
@@ -32,9 +41,11 @@ The majority of the current water supply in the metropolitan region is taken fro
 
 <!-- PDF page 31 -->
 
-**Figure 10:** The two primary water supply sources in the GAMA – the Kpong dam on the Volta River to the Northeast and the Weija Lake on the Densu River to the West of the city (SWITCH EU, 2011).
+![Figure 10. The two primary water-supply sources in GAMA — the Kpong dam on the Volta River to the northeast and Weija Lake on the Densu River to the west of the city (SWITCH EU, 2011).](../figures/10-figure.png)
 
-The Densu Basin has a drainage area of about 2,500 km2 and is divided into two sections: above and below the Weija dam. The Weija dam, located about 20km from Accra is one of the main sources of water for the Greater Accra region. According to a recent SWITCH EU study, the optimal safe yield from the system is 272,765m3/day. The other main source of water for Accra is the River Volta, which discharges into one of the world´s largest artificial lakes: the Akosombo Reservoir with a storage capacity of 148 km3 and a mean amount flowing through the dam of 43 km3/year (SWITCH EU, 2011). This latter amount (43km3), suggests that there are ample water supply for the Accra region. Increased upstream water use together with climate change can seriously affect water levels in the Volta basin which, in turn, can have consequences for electricity generation of the dam (Hammond & Kemausuor, 2007). Based on climate models and withdrawal predictions, the flow rate is expected to decrease to 33km3/year. Moreover, Burkia Faso relies heavily on the Volta basin for irrigated agriculture resulting in tensions over access to the resource. Nevertheless, these concerns are more of a threat to irrigation and electricity generation than the relatively small withdrawals used for drinking water. The Volta basin will, therefore, likely remain the main water supply source in the coming decades. However, water must be transported 54km by pipeline, creating higher costs and security risks if this is the exclusive supply (for example, in the case of pipeline rupture or contamination).
+*Figure 10. The two primary water-supply sources in GAMA — the Kpong dam on the Volta River to the northeast and Weija Lake on the Densu River to the west of the city (SWITCH EU, 2011).*
+
+The Densu Basin has a drainage area of about 2,500 km² and is divided into two sections: above and below the Weija dam. The Weija dam, located about 20km from Accra is one of the main sources of water for the Greater Accra region. According to a recent SWITCH EU study, the optimal safe yield from the system is 272,765m³/day. The other main source of water for Accra is the River Volta, which discharges into one of the world´s largest artificial lakes: the Akosombo Reservoir with a storage capacity of 148 km³ and a mean amount flowing through the dam of 43 km³/year (SWITCH EU, 2011). This latter amount (43km³), suggests that there are ample water supply for the Accra region. Increased upstream water use together with climate change can seriously affect water levels in the Volta basin which, in turn, can have consequences for electricity generation of the dam (Hammond & Kemausuor, 2007). Based on climate models and withdrawal predictions, the flow rate is expected to decrease to 33km³/year. Moreover, Burkia Faso relies heavily on the Volta basin for irrigated agriculture resulting in tensions over access to the resource. Nevertheless, these concerns are more of a threat to irrigation and electricity generation than the relatively small withdrawals used for drinking water. The Volta basin will, therefore, likely remain the main water supply source in the coming decades. However, water must be transported 54km by pipeline, creating higher costs and security risks if this is the exclusive supply (for example, in the case of pipeline rupture or contamination).
 
 There are a number of local streams which drain into coastal lagoons and wetlands: the Korle basin and the accompanying lagoon, the Kpeshie Lagoon, and
 
@@ -42,19 +53,21 @@ There are a number of local streams which drain into coastal lagoons and wetland
 
 Songo-Mokwe catchment and the Sukumo catchment which discharges into the Sakumono Lagoon. Due to unregulated waste disposal and poor systems for waste water treatment, these runoff streams and surface waters could pose water quality issues if used for drinking water supply. Also, many of these coastal surface waters contain salinity levels above drinking water requirements due to saline groundwater and coastal intrusion.
 
-**Figure 11:** Basins in the Accra area (SWITCH EU, 2011).
+![Figure 11. Basins in the Accra area (SWITCH EU, 2011).](../figures/11-figure.png)
+
+*Figure 11. Basins in the Accra area (SWITCH EU, 2011).*
 
 ### 2.1.3 Groundwater Resources
 
-Much of the Volta Basin (which includes the Accra region) has a low groundwater storage potential and low groundwater recharge rates as a result of hydrogeology characterized by impermeable grit, sandstone, and shales (Kortatsi & Jørgensen, 2001). This results in reliance on surface water resources (Kasei, 2009). The geology of the area is crystalline basement rock and the water table varies from 4.8-70m. The boreholes in the region have an average yield between 0.54-12.0m3/hour. Estimating the groundwater recharge rate at 4%2 and an annual rainfall of 700-800mm, the recharge can be estimated to be 30mm or about 100,000m3/day across the Greater Accra region (SWITCH EU, 2011). In other words, boreholes could potentially extract this amount of groundwater without depleting resources.
+Much of the Volta Basin (which includes the Accra region) has a low groundwater storage potential and low groundwater recharge rates as a result of hydrogeology characterized by impermeable grit, sandstone, and shales (Kortatsi & Jørgensen, 2001). This results in reliance on surface water resources (Kasei, 2009). The geology of the area is crystalline basement rock and the water table varies from 4.8-70m. The boreholes in the region have an average yield between 0.54-12.0m³/hour. Estimating the groundwater recharge rate at 4%2 and an annual rainfall of 700-800mm, the recharge can be estimated to be 30mm or about 100,000m³/day across the Greater Accra region (SWITCH EU, 2011). In other words, boreholes could potentially extract this amount of groundwater without depleting resources.
 
 However, as a result of lowering of the water tables in large parts of the Volta Basin, saltwater intrusion occurs in the southern parts of the basin near the Gulf of
 
-2 Recharge rate of 4% was confirmed based on a study in Southwest Ghana (Darko, 2002).
+[^2]: Recharge rate of 4% was confirmed based on a study in Southwest Ghana (Darko, 2002).
 
 <!-- PDF page 33 -->
 
-Guinea coast. While groundwater quality is high in many other parts of the country, many aquifers in coastal regions such as the Accra plains are characterized by high mineralization with total dissolved solids (TDS) in the range 2000-14,584 mg/l (Kortatsi & Jørgensen, 2001).
+Guinea coast. While groundwater quality is high in many other parts of the country, many aquifers in coastal regions such as the Accra plains are characterized by high mineralization with total dissolved solids (TDS) in the range 2000-14,584 mg/L (Kortatsi & Jørgensen, 2001).
 
 According to a study on groundwater salinity in the Accra plains (Kortatsi & Jørgensen, 2001), the average salinity from 16 monitoring wells is 2397 ppm (2.4 ppt). Closer to the coast, the salinity is slightly higher at 3126 ppm (3.13 ppt). This is above the minimum drinking water requirement of 500 ppm (0.5 ppt). Therefore, desalination of brackish groundwater would be required if groundwater from the Accra plains were used for potable water supply on a large scale.
 
@@ -62,11 +75,11 @@ Another possibility is transporting groundwater from surrounding areas. Volta Ba
 
 ### 2.1.4 Rainwater Harvesting
 
-The average annual rainfall is 700-800mm (Oppong-Anane, 2001). With a total urban land area of 1,261 km2, the average total amount of rain that falls in the Accra region is 0.954km3/year. The main rainy period is March to July with a dry season for 5 months of the year. It is assumed that 20% of the city surface is rooftops of which 25% are equipped with a rainwater collection system. If 10% of the water that falls on the rooftop is collected, a total of about 55,000m3/day would be supplied3. However, the rainfall patterns in the region have been described as erratic and unreliable. Also, rainwater is generally not suitable for drinking without treatment and ensuring non-centralized, household water treatment could pose an organizational challenge.
+The average annual rainfall is 700-800mm (Oppong-Anane, 2001). With a total urban land area of 1,261 km², the average total amount of rain that falls in the Accra region is 0.954km³/year. The main rainy period is March to July with a dry season for 5 months of the year. It is assumed that 20% of the city surface is rooftops of which 25% are equipped with a rainwater collection system. If 10% of the water that falls on the rooftop is collected, a total of about 55,000m³/day would be supplied3. However, the rainfall patterns in the region have been described as erratic and unreliable. Also, rainwater is generally not suitable for drinking without treatment and ensuring non-centralized, household water treatment could pose an organizational challenge.
 
 Given the scale of capacity expansion required, rainwater harvesting is not seen as competing with centralized treatment. However, rainwater harvesting has a long tradition in Ghana and could be an important source for residents who can not afford a utility connection or to supplement supplies (see Chapter 4).
 
-3 The NRDC report gives several scenarios for rainwater collection in urban cities in the U.S. (Garrison, 2011). Data for rooftop area is maximum 25% of city area. The most conservative assumes 25% of rooftops have collection systems. The collection percentage (of rainwater fallen on rooftop) was averaged at 10%.
+[^3]: The NRDC report gives several scenarios for rainwater collection in urban cities in the U.S. (Garrison, 2011). Data for rooftop area is maximum 25% of city area. The most conservative assumes 25% of rooftops have collection systems. The collection percentage (of rainwater fallen on rooftop) was averaged at 10%.
 
 <!-- PDF page 34 -->
 
@@ -76,11 +89,11 @@ Use of recycled wastewater for irrigation, industrial and other non-drinking wat
 
 Use of recycled water for drinking water is less common due to regulatory constraints, public resistance, and concern over existence of pathogens or pharmaceutical compounds. Nevertheless, storm water and other sources of waste water need to be taken into account when assessing water supply if not as a possible supply source, then to understand possible risk to existing supplies. Flooding and discharges without proper treatment infrastructure can affect the quality of water supplies, particularly in a large urban setting. Through the use of advanced treatment technology, such as membrane and UV purification, wastewater is being used as a direct drinking water supply source in some jurisdictions such as Singapore, Australia and California. Indirectly, wastewater can replenish groundwater or surface water sources before being withdrawn for drinking water use. This can have the added benefit of replenishing ecosystems which, in turn, can provide natural filtration of contaminants. A recent study comparing quality of recycled-, ground- and surfaces waters found that reclaimed water is very similar with regard to constituents (WateReuse Research Foundation, 2009).
 
-In Accra, storm drains handle most of the storm water drainage as well as a large part of the grey water. Due to lack of drainage capacity, clogging of drains and sealing of urban surfaces, frequent flooding occurs. Flooding is most severe at the base of catchment areas, near the coast. The region at highest risk of flooding is in the Eastern section of the city (Sakumo catchment area). The peak runoff in this zone4 is as high as 3,230m3/s.
+In Accra, storm drains handle most of the storm water drainage as well as a large part of the grey water. Due to lack of drainage capacity, clogging of drains and sealing of urban surfaces, frequent flooding occurs. Flooding is most severe at the base of catchment areas, near the coast. The region at highest risk of flooding is in the Eastern section of the city (Sakumo catchment area). The peak runoff in this zone4 is as high as 3,230m³/s.
 
-Currently, urban agriculture recycles an estimated 44 million m3 of wastewater annually in the Accra area (Recource Centres on Urban Agriculture and Food Security). However, due to increased urbanization, the amount of land available
+Currently, urban agriculture recycles an estimated 44 million m³ of wastewater annually in the Accra area (Recource Centres on Urban Agriculture and Food Security). However, due to increased urbanization, the amount of land available
 
-Calculated from Q= 0.28*Cs*C*I*A, Where: Q= runoff rate [m3/sec], C=
+Calculated from Q= 0.28*Cs*C*I*A, Where: Q= runoff rate [m³/s], C=
 4
 
 Runoff Coefficient, Cs= Storage Coefficient, I= Rainfall Intensity [mm/hr], A=
@@ -92,51 +105,52 @@ for peri-urban agriculture is decreasing rapidly, which decreases the permeabili
 
 Due to such challenges it has been recommended that Accra adopt a water sensitive urban design approach, where development is done with interdisciplinary consideration of water management, urban design and landscape planning (SWITCH EU, 2011). Specific recommendations have been the adoption of a green belt as well as rainwater harvesting and re-use of grey water and improvement of the drainage infrastructure. Due to the large runoff, high flood risk, urban growth and one of the largest green spaces in the urban region, the Sakumo catchment is an area where such an integrated approach is a high priority.
 
-Potential therefore exists to capture and recycle wastewater in the Sakumo basin. With a total catchment area of 280km2 and evapotranspiration rate of 80mm (or 10% of precipitation) and a 10% recharge rate, the flow rate in the catchment basin can be calculated as 497,096m3/day5. However, this extraction would require substantial investment in drainage and waste water treatment infrastructure which currently is practically non-existent.
+Potential therefore exists to capture and recycle wastewater in the Sakumo basin. With a total catchment area of 280km² and evapotranspiration rate of 80mm (or 10% of precipitation) and a 10% recharge rate, the flow rate in the catchment basin can be calculated as 497,096m³/day5. However, this extraction would require substantial investment in drainage and waste water treatment infrastructure which currently is practically non-existent.
 
-5
-Calculated from the catchment water balance equation: ΔS = P – ET – Q – D where S is water
-stored in the basin, P the precipitation, ET the evapotranspiration rate, Q the flow, D the groundwater recharge.
+[^5]: Calculated from the catchment water-balance equation:
+
+$$
+\Delta S = P - ET - Q - D
+$$
+
+where \(S\) is water stored in the basin, \(P\) is precipitation, \(ET\) is evapotranspiration, \(Q\) is flow, and \(D\) is groundwater recharge.
 
 <!-- PDF page 36 -->
 
 ### 2.1.6 Summary of Water Resources
 
-**Table 4:** Summary of water resources in Greater Accra. Source: adapted from sources above).
+**Table 4. Summary of water resources in Greater Accra** (adapted from sources above)
 
-Source                       Capacity                   Comments
-Weija                        273,000m3/day              Current withdrawals of
-170,000m3/day are approaching capacity; Pollution is concern.
-Volta                        90,400,000m3/day           Plenty of supply; Transport over
-50km, leads to higher costs; overreliance on one source raises water security concerns.
-Groundwater                  100,000m3/day              Brackish groundwater would
-require desalination. Large groundwater withdrawals generally not possible.
-Rainwater Harvesting         54,794.52m3/day            Not suitable on large scale;
-treatment issues if used as drinking water.
-Wastewater                   497,096 m3/day6            Current WWT and storm water
-infrastructure is inadequate. Waste water withdrawal from coastal lagoons is brackish.
+| Source | Capacity | Comments |
+|---|---:|---|
+| Weija | 273,000 m³/day | Current withdrawals of 170,000 m³/day are approaching capacity; pollution is a concern. |
+| Volta | 90,400,000 m³/day | Plenty of supply; transport over 50 km leads to higher costs; overreliance on one source raises water-security concerns. |
+| Groundwater | 100,000 m³/day | Brackish groundwater would require desalination. Large groundwater withdrawals generally not possible. |
+| Rainwater harvesting | 54,794.52 m³/day | Not suitable on a large scale; treatment issues if used as drinking water. |
+| Wastewater | 497,096 m³/day[^6] | Current WWT and storm-water infrastructure is inadequate. Wastewater withdrawal from coastal lagoons is brackish. |
 
-6 Mean annual runoff (only in the Sakumo catchment) where flooding is most severe. The actual safe yield would likely be below this amount (40% of runoff has been cited in the literature).
+[^6]: Mean annual runoff (only in the Sakumo catchment), where flooding is most severe. The actual safe yield would likely be below this amount (40% of runoff has been cited in the literature).
 
 <!-- PDF page 37 -->
 
 ### 2.1.7 Current System Capacity and Planned Expansions
 
-Planned expansions to the system are outlined in a Strategic Investment Plan and suggest increasing the capacity to 917,990 m3/day by 2025 (TAHAL Group, 2008). Since the Weija expansion is limited in capacity, most expansion will be done through expanding supply and treatment from the Volta basin. A current large expansion of supply from Lake Volta is currently underway.
-**Table 5:** System capacity after expansion through 2025 (SWITCH EU, 2011).
+Planned expansions to the system are outlined in a Strategic Investment Plan and suggest increasing the capacity to 917,990 m³/day by 2025 (TAHAL Group, 2008). Since the Weija expansion is limited in capacity, most expansion will be done through expanding supply and treatment from the Volta basin. A current large expansion of supply from Lake Volta is currently underway.
+**Table 5. System capacity after expansion through 2025** (SWITCH EU, 2011)
 
-System                                           Capacity (m3/day)
-Existing (Weija and Volta)                       386,362
-Weija expansion                                  68,190
-new WTP from Volta                               300,000
-new Volta works                                  127,038
-Total planned expansion                          881,590
-Volta old                                        36,400
-Total                                            917,990
+| System | Capacity (m³/day) |
+|---|---:|
+| Existing (Weija and Volta) | 386,362 |
+| Weija expansion | 68,190 |
+| New WTP from Volta | 300,000 |
+| New Volta works | 127,038 |
+| **Total planned expansion** | **881,590** |
+| Volta old | 36,400 |
+| **Total** | **917,990** |
 
 It is estimated that physical losses of 27% of water produced by the Ghana Water Company Limited (GWCL) system (nationally) are caused by the bad state of the distribution infrastructure (Bahri, 2001). The poor state of the distribution infrastructure can be attributed to lack of maintenance, replacement and rehabilitation.
 
-Assuming 100,000 m3/day could be recovered from physical losses by improving the distribution infrastructure. With basic repairs of the distribution system coupled with currently planned expansions, total capacity could be brought to just over 1,000,000 m3/day. This only covers demand under the most conservative growth scenario, indicating the need for additional expansion plans.
+Assuming 100,000 m³/day could be recovered from physical losses by improving the distribution infrastructure. With basic repairs of the distribution system coupled with currently planned expansions, total capacity could be brought to just over 1,000,000 m³/day. This only covers demand under the most conservative growth scenario, indicating the need for additional expansion plans.
 
 With respect to a new water supply capacity, the following points are considered:
 
@@ -152,7 +166,9 @@ overall cost.
 - Both water supply and energy for the region is largely dependent on two
 dams, raising concerns regarding the diversity and security of both water and electricity supply7.
 
-**Figure 12:** scenarios of water demand vs. planned 2025 supply. Own diagram adapted from (SWITCH EU, 2011).
+![Figure 12. Scenarios of water demand versus planned 2025 supply. Own diagram adapted from SWITCH EU (2011).](../figures/12-figure.png)
+
+*Figure 12. Scenarios of water demand versus planned 2025 supply. Own diagram adapted from SWITCH EU (2011).*
 
 ### 2.1.8 The Desalination Option
 
@@ -164,33 +180,31 @@ The question of whether expanded desalination is an option for the metropolitan 
 
 The selection of the optimal water supply source from all of the alternatives is based on a number of factors including source water volume, water quality, cost of supply, how well the source can be integrated with a wastewater/flood management plan, and how the new supply source would contribute to stability/security of the whole regional water supply system. A large number of qualitative and quantitative factors must be taken into consideration. A systems analysis approach based on methods from operations research can be used for the decision making process (Arnold, 2010). Multi-criteria decision analysis, based on the Weighted Product Method can be applied to compare the possible water supply sources. The criteria used for the evaluation include:
 
-i.      Potential: determination of the water supply potential, based on volume
+1. **Potential:** determination of the water supply potential, based on volume
 relative to demand.
 
-7 The International Water Management Institute has called attention to the need to build more diversity into water supply systems in developing nations in order to mitigate risk of erratic rainfall and climate changes.
+[^7]: The International Water Management Institute has called attention to the need to build more diversity into water-supply systems in developing nations in order to mitigate risk of erratic rainfall and climate changes.
 
 <!-- PDF page 39 -->
 
-ii.     Economic costs: costs for each scenario, considering construction,
+2. **Economic costs:** costs for each scenario, considering construction,
 transport costs and operation and maintenance O&M costs.
-iii.    Water quality: quality of source water regarding current and potential
+3. **Water quality:** quality of source water regarding current and potential
 contamination.
-iv.     Integrated Water Management: extent to which the water supply may
+4. **Integrated Water Management:** extent to which the water supply may
 integrate into a waste water management, conservation, and flood management plan for the region.
-vi.     Security: vulnerability of supply source to natural disaster, drought,
+5. **Security:** vulnerability of supply source to natural disaster, drought,
 security threat, infrastructure failure, etc.
 
 Numerical values are assigned to represent an assessment of each of the above criteria based on available qualitative and quantitative data. The value of 0 represents no potential, while 9 represents the highest potential.
-**Table 6:** Weights assigned to different criteria adapted from (Rujula & Dia, 2010).
+**Table 6. Weights assigned to different criteria** (adapted from Rujula & Dia, 2010)
 
-Weight              Description
-8-9                 Great potential: low cost, high quality, integrated into regional
-water management, high security.
-5-7                 Intermediate potential; economically/technically feasible but
-sub-optimal.
-1-4                 Low potential, high cost, low quality, etc.
-0                   Option does not exist, not technically feasible, economically
-prohibitive, etc.
+| Weight | Description |
+|---:|---|
+| 8–9 | Great potential: low cost, high quality, integrated into regional water management, high security. |
+| 5–7 | Intermediate potential; economically/technically feasible but sub-optimal. |
+| 1–4 | Low potential, high cost, low quality, etc. |
+| 0 | Option does not exist, is not technically feasible, or is economically prohibitive. |
 
 Weightings are assigned qualitatively based on how they are judged to compare to the other available alternatives. Quantitative data is used whenever possible, but the assigned coefficient value has a certain degree of subjectivity and should be interpreted as a guiding value only.
 
@@ -198,19 +212,20 @@ For example, for water supply groundwater was determined to have the capacity to
 
 <!-- PDF page 40 -->
 
-Box 2: Multi-Criteria Decision Analysis (MCDA) Definition Adapted from: (Mendoza & Martins, 2006)
-
-Multi-criteria decision analysis is a sub-discipline of operations research concerned with structuring and solving planning problems involving multiple conflicting criteria.
-
-For large projects (like building a power plant) there are a number of complex issues and diverse stakeholders. Properly structuring the problem and explicitly evaluating the factors usually leads to better and more informed decisions.
-
-The weighted product model is a well-known method of MCDA for evaluating a number of alternatives in terms of a number of criteria using multiplication of assigned coefficients.
+> **Box 2. Multi-Criteria Decision Analysis (MCDA)**  
+> Adapted from Mendoza & Martins (2006).
+>
+> Multi-criteria decision analysis is a sub-discipline of operations research concerned with structuring and solving planning problems involving multiple conflicting criteria.
+>
+> For large projects, such as building a power plant, there are a number of complex issues and diverse stakeholders. Properly structuring the problem and explicitly evaluating the factors usually leads to better and more informed decisions.
+>
+> The weighted product model is a well-known method of MCDA for evaluating a number of alternatives in terms of a number of criteria using multiplication of assigned coefficients.
 
 ### 2.2.2 Assigning Coefficients
 
 #### 2.2.2.1 Supply Potential
 
-Each supply source is assigned a coefficient from 0-9 (with possible increments of 0.5) based on qualitative and quantitative analysis. For potential of water source, Lake Volta and seawater provide almost unlimited supply with little concern of depletion. Concerns with Volta supplies affect more the agricultural withdrawals and power supply than drinking water. Weija supplies may seem abundant, but capacity for further withdrawals is only 100,000m3/day given the current infrastructure. Wastewater runoff is in abundance, for example, in the Sakumono lagoon area near Tema. Groundwater and rainwater could provide comparatively low volumes of water.
+Each supply source is assigned a coefficient from 0-9 (with possible increments of 0.5) based on qualitative and quantitative analysis. For potential of water source, Lake Volta and seawater provide almost unlimited supply with little concern of depletion. Concerns with Volta supplies affect more the agricultural withdrawals and power supply than drinking water. Weija supplies may seem abundant, but capacity for further withdrawals is only 100,000m³/day given the current infrastructure. Wastewater runoff is in abundance, for example, in the Sakumono lagoon area near Tema. Groundwater and rainwater could provide comparatively low volumes of water.
 
 #### 2.2.2.2 Cost
 
@@ -237,44 +252,32 @@ Microbial risk is also a security concern. According to 2011 press reports (Ghan
 #### 2.2.2.5 Summary
 
 The criteria are summarized in Table 7:
-**Table 7:** Assigned coefficients for each criteria with brief justification.
+**Table 7. Assigned coefficients for each criterion, with brief justification**
 
-Criteria              Weija              Volta                 Groundwater       Rainwater          Wastewater            Other surface        Seawater
-Recycling             water
-Potential             100,000m3/         >90million            100,000m3/day     55,000m3/day       >500,000 m3/day       <100,000m3/d         unlimited
-day                m3/day                                                                           (each)
-AC                    5                  8               5                       3                  6                     5                    9
-Economic              Existing           Long Pipe       Higher cost             Low                Low O&M cost, saves Brackish coastal       High cost
-facilities in      distance        than surface            infrastructure/O   WWT and flood         waters require
-place;             significantly   water, brackish         &M cost; costs     protection costs. May desalination.
-lower cost         raises costs.   water requires          borne by           require desalination.
-desalination.           households
-AC                    7                  6               5                       7                  5                        5                 5
-Water Quality         Pollution          Highest         Higher quality;         Treatment          Higher quality than      Pollution         Oil/gas tankers/
-concerns in        quality surface pollutants              needed if used     most surface water if    concerns in all   pipelines in
-Densu              water           filtered                for drinking.      properly treated         surface waters    vicinity
-basin
-AC                    5                  7                     7                 4                  5                        5                 7
-Integrated            Little             Imported              Can reduce        Reduces runoff     Reduces runoff and       Little impact     Little impact
-Water                 integration/       water;                wetlands and                         flooding; treats waste
-Management            impact             Increases             increase                             water
-water balance         flooding
-in city
-AC                    4                  5                     5                 7                  8                        4                 4
-Security              Risk of            Risk of dam           Contamination     Diversifies        Diversifies water        Other major       Diversifies
-dam                flooding,             risk; hard to     water supply;      supply and lowers risk   supply sources    water supply;
-flooding,          reliance on           detect;           reliable           of contamination by      are surface       high energy
-reliance on        hydroelectric         diversifies                          untreated waste water    waters            requirement
-hydroelectr                              water supply
-ic
-4                  4                     6                 8                  6                        5                 7
+| Criterion | Weija | Volta | Groundwater | Rainwater | Wastewater recycling | Other surface water | Seawater |
+|---|---|---|---|---|---|---|---|
+| **Potential** | 100,000 m³/day | >90 million m³/day | 100,000 m³/day | 55,000 m³/day | >500,000 m³/day | <100,000 m³/day (each) | Unlimited |
+| **AC** | 5 | 8 | 5 | 3 | 6 | 5 | 9 |
+| **Economic** | Existing facilities in place; lower cost | Long pipe distance significantly raises costs | Higher cost than surface water; brackish water requires desalination | Low infrastructure/O&M cost; costs borne by households | Low O&M cost; saves WWT and flood-protection costs; may require desalination | Brackish coastal waters require desalination | High cost |
+| **AC** | 7 | 6 | 5 | 7 | 5 | 5 | 5 |
+| **Water quality** | Pollution concerns in Densu basin | Highest-quality surface water | Higher quality; pollutants filtered | Treatment needed if used for drinking | Higher quality than most surface water if properly treated | Pollution concerns in all surface waters | Oil/gas tankers and pipelines in vicinity |
+| **AC** | 5 | 7 | 7 | 4 | 5 | 5 | 7 |
+| **Integrated water management** | Little integration/impact | Imported water; increases water balance in city | Can reduce wetlands and increase flooding | Reduces runoff | Reduces runoff and flooding; treats wastewater | Little impact | Little impact |
+| **AC** | 4 | 5 | 5 | 7 | 8 | 4 | 4 |
+| **Security** | Risk of dam flooding; reliance on hydroelectric | Risk of dam flooding; reliance on hydroelectric | Contamination risk; hard to detect; diversifies water supply | Diversifies water supply; reliable | Diversifies supply and lowers contamination risk from untreated wastewater | Other major supply sources are surface waters | Diversifies water supply; high energy requirement |
+| **AC** | 4 | 4 | 6 | 8 | 6 | 5 | 7 |
 
 <!-- PDF page 43 -->
 
 ### 2.2.3 Calculating the Product
 
-Suppose that wj denotes the relative weight of importance of the criterion Cj and ACj is the performance value of alternative Ai when it is evaluated in terms of criterion Cj. The total is defined (Triantaphyllou, Shu, Sanchez, & Ray, 1998):
-∏                (Equation 2.2.3)
+Suppose that \(w_j\) denotes the relative weight of importance of criterion \(C_j\), and \(AC_{ij}\) is the performance value of alternative \(A_i\) when evaluated in terms of criterion \(C_j\). The weighted-product score is defined (Triantaphyllou, Shu, Sanchez, & Ray, 1998) as:
+
+$$
+P_i = \prod_{j=1}^{n} AC_{ij}^{w_j}
+$$
+
+*Equation 2.2.3.*
 
 Each criteria is given equal importance (wj=1), since one are deemed more or less
 critical than the others. Also, weighting the criteria is deemed overly subjective in this case. The product is calculated and the result presented in Figure 13.
@@ -283,9 +286,10 @@ critical than the others. Also, weighting the criteria is deemed overly subjecti
 
 Based on the criteria, seawater is judged the optimal supply solution due to its abundant volume, low risk of contamination, and the fact that it diversifies existing sources providing security of supply. The reader should note: this is a qualitative assessment based on the assumptions and information presented in previous sections. Lake Volta is likely the optimal supply ceteris paribus, but in this particular time and context, considering water security concerns and heavy reliance on Kpong sources, desalination was given a preferential rating. A key question here is cost of desalination and whether it compares with surface water supplies. This question will be dealt with in detail in subsequent sections.
 
-10000 9000 8000 7000 6000 5000 4000 3000 2000 1000 0
 
-**Figure 13:** Graph of weighted product for each water supply source; wastewater recycling obtains the highest score (source data found in the Appendix).
+![Figure 13. Graph of weighted product for each water-supply source; wastewater recycling obtains the highest score (source data found in the Appendix).](../figures/13-figure.png)
+
+*Figure 13. Graph of weighted product for each water-supply source; wastewater recycling obtains the highest score (source data found in the Appendix).*
 
 <!-- PDF page 44 -->
 
@@ -303,48 +307,40 @@ In 2011, Ghana Grid Company released a transmission master plan outlining the ne
 
 <!-- PDF page 45 -->
 
-**Table 8:** Existing power generation facilities in Ghana (GridCo , 2010).
+**Table 8. Existing power-generation facilities in Ghana** (GridCo, 2010)
 
-Plant                                  Type             Max.
-Capacity
-## (Mw)
-Akosombo                               Hydro            1020.0
-Kpong Hydroelectric                    Hydro            152
-Takorandi Thermal T1                   NG/Diesel        330
-Takorandi Thermal T2                   NG/Diesel        220
-Tema Power Plant T1                    NG/Diesel        113
-Mines Reserve Plant                    Diesel           50
-Tema Power Plant T2                    NG/Diesel        50
-Sunon-Asogli Plant                     NG               200
-Osagyefo Barge                         NG/Diesel        125
-TOTAL                                                   2260MW
+| Plant | Type | Maximum capacity (MW) |
+|---|---|---:|
+| Akosombo | Hydro | 1,020 |
+| Kpong Hydroelectric | Hydro | 152 |
+| Takoradi Thermal T1 | NG/Diesel | 330 |
+| Takoradi Thermal T2 | NG/Diesel | 220 |
+| Tema Power Plant T1 | NG/Diesel | 113 |
+| Mines Reserve Plant | Diesel | 50 |
+| Tema Power Plant T2 | NG/Diesel | 50 |
+| Sunon-Asogli Plant | NG | 200 |
+| Osagyefo Barge | NG/Diesel | 125 |
+| **Total** |  | **2,260** |
 
 As indicated in Table 9 below, there are a number of current thermal projects under construction and projected capacity8 by 2013 is 3,600MW. Four recent/upcoming capacity additions include the Sunon Asogli Power Plant (SAPP) and Osagyefo Power Plant (operating9), Kpone Power Project (KPP), and Bui Power Plant (BPP).
-**Table 9:** Power generation capacity additions (GridCo , 2010).
+**Table 9. Power-generation capacity additions** (GridCo, 2010)
 
-Plant                        Type                Max. Capacity            Expected
-(MW)                     completion
-Kpone Power Plant            Thermal             320                      2012
-Tema Osono                   Thermal             120                      2012
-Takorandi T2,T3              Thermal             220                      2012
-Bui Hydroelectric            Hydroelectric       400                      2013
-CENPOWER                     Thermal             110                      2013
-Total Additions                                  1170MW
-
-TOTAL EXISTING                                   3430MW
-## And New
-
-8 Based on predictions in the 2012 Ghana Power Sector Report. Discrepancies from the 3430MW calculation above are due to smaller projects not included in plant additions. 9 While these new plants are in operation, there have been reported problems securing gas supply contracts.
+| Plant | Type | Maximum capacity (MW) | Expected completion |
+|---|---|---:|---:|
+| Kpone Power Plant | Thermal | 320 | 2012 |
+| Tema Osono | Thermal | 120 | 2012 |
+| Takoradi T2, T3 | Thermal | 220 | 2012 |
+| Bui Hydroelectric | Hydroelectric | 400 | 2013 |
+| CENPOWER | Thermal | 110 | 2013 |
+| **Total additions** |  | **1,170** |  |
+| **Total existing and new** |  | **3,430** |  |
 
 <!-- PDF page 46 -->
 
-2005         2010            2015           2020            2025           2030
-7000 6000 5000 4000 3000 2000 1000 0
 
-peak demand (MW)             peak demand +20%
-max generation MW            2015 target
+![Figure 14. Electricity supply/demand forecast for Ghana adapted from GridCo (2010). Generation remains static until 2015 based on current planned expansions to show that significant generation capacity still must be added within the next decade to meet domestic demand. A 20% reserve is a modest figure given risks associated with hydroelectricity.](../figures/14-figure.png)
 
-**Figure 14:** Electricity supply/demand forecast for Ghana adapted from (GridCo , 2010). Generation remains static until 2015 based on current planned expansions to show that significant generation capacity still must be added within the next decade in order to meet domestic demand. 20% reserve is a modest figure given risks associated with hydroelectricity.
+*Figure 14. Electricity supply/demand forecast for Ghana adapted from GridCo (2010). Generation remains static until 2015 based on current planned expansions to show that significant generation capacity still must be added within the next decade to meet domestic demand. A 20% reserve is a modest figure given risks associated with hydroelectricity.*
 
 Projections show current capacity and planned expansions will provide sufficient supply to meet domestic demand (plus 20% reserve)10 through 2018. However, capacity will fall short of the 2015 target of 5,000MW. A large thermal plant can take 3 years to build in addition to time for regulatory processes. Therefore, to meet domestic demand by 2018, additional generating capacity should be planned in the near-term (2-3 years). To meet the 2015 target, additional capacity would have to begin in the immediate term (<2 years). Given that power plant project cycles are often several years, plans for adding an additional 2,300MW by 2025 need to be made in the medium term (next 3-5 years).
 
@@ -358,21 +354,25 @@ transmission infrastructure is also needed, but this topic is not addressed in t
 
 ### 2.3.2 Available Energy Resources
 
-By 2025, the water supply infrastructure will need an estimated 282,000- 682,000m3/year of additional capacity (under low to moderate growth scenarios). Based on multi-criteria analysis, seawater is an optimal water supply source in comparison with the immediate alternatives. Also, an estimated 2,300MW of electricity generation capacity will be necessary by 2025. Given the needed expansion of both electricity generation and water supply capacity in the region, the cogeneration of power and water is considered. To determine what type of cogeneration is possible, an assessment of the energy potential for the region (including renewable sources) is undertaken. Meteorological and geological data are analyzed to determine which sources offer the most potential.
+By 2025, the water supply infrastructure will need an estimated 282,000- 682,000m³/year of additional capacity (under low to moderate growth scenarios). Based on multi-criteria analysis, seawater is an optimal water supply source in comparison with the immediate alternatives. Also, an estimated 2,300MW of electricity generation capacity will be necessary by 2025. Given the needed expansion of both electricity generation and water supply capacity in the region, the cogeneration of power and water is considered. To determine what type of cogeneration is possible, an assessment of the energy potential for the region (including renewable sources) is undertaken. Meteorological and geological data are analyzed to determine which sources offer the most potential.
 
 #### 2.3.2.1 Solar
 
-The possibility of photovoltaic (PV) generation was assessed by calculating the land use requirement for a desalination plant at 3.63kWh/m3 of fresh water produced (Befesa Desalination Development Ghana, 2011). Based on local solar irradiance data, a modest plant of size of say 40,000m3/day would require a PV array of at least 372,000m2 (see Appendix 1 for calculation). This is not seen as a realistic scenario given that Ghana currently has less than 10MW solar power installed and limited land use is available at this site.
+The possibility of photovoltaic (PV) generation was assessed by calculating the land use requirement for a desalination plant at 3.63kWh/m³ of fresh water produced (Befesa Desalination Development Ghana, 2011). Based on local solar irradiance data, a modest plant of size of say 40,000m³/day would require a PV array of at least 372,000m2 (see Appendix 1 for calculation). This is not seen as a realistic scenario given that Ghana currently has less than 10MW solar power installed and limited land use is available at this site.
 
-There has been great interest in using concentrating solar power (CSP) for desalination. However, irradiance data (see Figure 15 below) suggests this is not possible at this location: a minimum irradiance of 2,000 kWh/m2/y is required for an economical CSP plant, while the site has values closer to 1,846kWh/m2/y (UNEP, 2001). Solar radiation maps suggest that coastal Ghana is not an ideal location compared to the North Africa, Middle East or other regions with high solar insolation values. Coastal Ghana could be connected to HVDC power lines from the interior areas suitable for CSP, but this would entail transmission losses and eliminate the possibility co-location with a seawater desalination plant.
+There has been great interest in using concentrating solar power (CSP) for desalination. However, irradiance data (see Figure 15 below) suggests this is not possible at this location: a minimum irradiance of 2,000 kWh/m²/y is required for an economical CSP plant, while the site has values closer to 1,846kWh/m²/y (UNEP, 2001). Solar radiation maps suggest that coastal Ghana is not an ideal location compared to the North Africa, Middle East or other regions with high solar insolation values. Coastal Ghana could be connected to HVDC power lines from the interior areas suitable for CSP, but this would entail transmission losses and eliminate the possibility co-location with a seawater desalination plant.
 
 The possibility of a salt gradient solar pond was also explored but, similar to PV, the surface area of the pond would have to be too large for the available land use and required volume of water.
 
 <!-- PDF page 48 -->
 
-**Figure 15:** Global horizontal solar radiation in Ghana kWh/m2/day (image: NREL).
+![Figure 15. Global horizontal solar radiation in Ghana, kWh/m²/day (image: NREL).](../figures/15-figure.png)
 
-**Figure 16:** Global map of solar thermal potential based on solar irradiance. The coast of Ghana lies in the “not appropriate” category, while the north area is “good” (source: Solar Millennium AC).
+*Figure 15. Global horizontal solar radiation in Ghana, kWh/m²/day (image: NREL).*
+
+![Figure 16. Global map of solar thermal potential based on solar irradiance. The coast of Ghana lies in the “not appropriate” category, while the north area is “good” (source: Solar Millennium AC).](../figures/16-figure.png)
+
+*Figure 16. Global map of solar thermal potential based on solar irradiance. The coast of Ghana lies in the “not appropriate” category, while the north area is “good” (source: Solar Millennium AC).*
 
 <!-- PDF page 49 -->
 
@@ -381,12 +381,14 @@ The possibility of a salt gradient solar pond was also explored but, similar to 
 Lack of data has been an obstacle in the development of wind resources in Ghana. In 1999, The Energy Commission began data collection and evaluation as part of the energy planning framework.
 
 Offshore wind was considered based on average velocity of 6.38m2/s (Weibull
-distribution: Φ = 0.12) and available power of 159W/m2 (based on the VestasV90-
+distribution: Φ = 0.12) and available power of 159W/m² (based on the VestasV90-
 3MW turbine model). Full calculations are in the appendix.
 
 While the NREL laboratory reports significant potential for wind energy in Ghana, values fall into the marginal or moderate category of offshore wind power classification (see Figure 17 below). Offshore is used as the reference point, since offshore wind is likely more powerful than onshore resources. By comparison, the recent wind powered desalination plant in Southern Australia is at a location where speeds are considerably higher at 8-9m/s (at 10m above sea level; wind classification as ‘excellent’ for power generation). Therefore, the economic use of wind energy at this location is considered feasible but no ideal compared with other geographic sites.
 
-**Figure 17:** Wind Power Classification map for Ghana (image: NREL).
+![Figure 17. Wind-power classification map for Ghana (image: NREL).](../figures/17-figure.png)
+
+*Figure 17. Wind-power classification map for Ghana (image: NREL).*
 
 <!-- PDF page 50 -->
 
@@ -394,15 +396,23 @@ While the NREL laboratory reports significant potential for wind energy in Ghana
 
 There are no known geothermal sources in proximity to the site (see Figure 18 below).
 
-**Figure 18:** Distribution of global geothermal resources. Red zones indicate the most geothermal potential (practical geothermal temperatures range between 100-300oC). Source: Glitnir Bank, Emerging Energy Research, May 2009.
+![Figure 18. Distribution of global geothermal resources. Red zones indicate the most geothermal potential (practical geothermal temperatures range between 100–300 °C). Source: Glitnir Bank, Emerging Energy Research, May 2009.](../figures/18-figure.png)
+
+*Figure 18. Distribution of global geothermal resources. Red zones indicate the most geothermal potential (practical geothermal temperatures range between 100–300 °C). Source: Glitnir Bank, Emerging Energy Research, May 2009.*
 
 #### 2.3.2.4 Ocean Energy
 
 A UNEP report assessing the ocean energy potential in West Africa was previously published (UNEP, 1983). The report concludes that wave energy is inadequate in this region since studies show <300MWh/m of wave crest length, well below 535MWh/m in the North Atlantic. Similarly, currents in the West Africa region were found to be weak adjacent to the coast and there are no narrow straights to concentrate the flow. The mean tidal range in some parts of West Africa is the sufficient 5.5m (or higher) for tidal energy, but the tidal range in Ghana is well below this level at 0.9-1.0m. Salinity gradient osmotic power is an interesting prospect: the theoretical potential for the Volta River was calculated at over 2,000MW11. However, the technology for harvesting this energy is in its infancy and is not considered at economic scale12.
 
-11
-Calculated from theoretical horsepower = QH/11.81, where Q is the flow rate and H head. The
-head for freshwater flowing into a saltwater body was given as 240m. 12 Salinity gradient and thermal energy from oceans are in early stages of development: http://www.eu-oea.com.
+[^11]: Calculated from theoretical horsepower:
+
+$$
+HP = \frac{QH}{11.81}
+$$
+
+where \(Q\) is the flow rate and \(H\) is head. The head for freshwater flowing into a saltwater body was given as 240 m.
+
+[^12]: Salinity-gradient and thermal energy from oceans were in early stages of development at the time of writing (source cited in the original thesis: eu-oea.com).
 
 <!-- PDF page 51 -->
 
@@ -412,7 +422,9 @@ Ghana has proven reserves of natural gas of 22.65 billion cubic meters and there
 
 Significant offshore oil reserves have been discovered (see Figure 17 below), but its use for thermal generation is not expected to equal natural gas. Coal is not a major energy source in the country.
 
-**Figure 19:** Ghana’s offshore oil fields. Image: oxfamamerica.org.
+![Figure 19. Ghana’s offshore oil fields (image: Oxfam America).](../figures/19-figure.png)
+
+*Figure 19. Ghana’s offshore oil fields (image: Oxfam America).*
 
 #### 2.3.2.6 Biomass
 
@@ -420,11 +432,13 @@ Biomass is currently the dominant energy source in Ghana due primarily to its do
 
 <!-- PDF page 52 -->
 
-feedstocks include animal waste, cassava, leaves, urban refuse, solid waste, agricultural residues and sewage. Livestock produced in Ghana in 2006 could generate about 350 million m3 of biogas from which up to 2,100 GWh of thermal energy could be obtained. Also, it is estimated that 0.45kg per capita per day solid waste is produced which translates to 3.73 million tonnes MSW per year. The Energy Commission has estimated the availability of 1 million tonnes per year of wood processing residue and over 800 million tonnes of wood for fuel (Kemausuor, Obeng, Hammond, & Duker, 2011).
+feedstocks include animal waste, cassava, leaves, urban refuse, solid waste, agricultural residues and sewage. Livestock produced in Ghana in 2006 could generate about 350 million m³ of biogas from which up to 2,100 GWh of thermal energy could be obtained. Also, it is estimated that 0.45kg per capita per day solid waste is produced which translates to 3.73 million tonnes MSW per year. The Energy Commission has estimated the availability of 1 million tonnes per year of wood processing residue and over 800 million tonnes of wood for fuel (Kemausuor, Obeng, Hammond, & Duker, 2011).
 
 For a large-scale biomass plant, limited transport infrastructure, cost of transport, and distance would need to be carefully considered. Though waste to energy or biomass is an interesting possibility, solid waste collection is minimal. Point sources of biomass (such as large farms or wood processing facilities) are at a distance from large population centres (see Figure 20 below).
 
-**Figure 20:** Biomass Map of Ghana based on Mg/ha of available biomass. High biomass areas with large agriculture or wood processing industries are located West of the Accra region image source: UNEP.
+![Figure 20. Biomass map of Ghana based on Mg/ha of available biomass. High-biomass areas with large agriculture or wood-processing industries are located west of the Accra region (image source: UNEP).](../figures/20-figure.png)
+
+*Figure 20. Biomass map of Ghana based on Mg/ha of available biomass. High-biomass areas with large agriculture or wood-processing industries are located west of the Accra region (image source: UNEP).*
 
 #### 2.3.2.7 Co-Combustion
 
@@ -440,32 +454,27 @@ Similar to straight biomass plants, the transport or distance requirements for l
 
 Nuclear power has been discussed for Ghana. In 2012, Ministry of Energy established and the Nuclear Energy Programme Implementation Organization (NEPIO), which will co-ordinate the activities of all stakeholder institutions involved in the planning of the possible nuclear power project. The Ghana Atomic Energy Commission has said nuclear power could provide at least 10 percent of the country’s installed capacity by 2020. However, there are risks and public controversy with this energy source, a detailed discussion of which is beyond the scope of this work. A limiting factor is uranium supplies which are finite and reserves do not exist in West Africa (see Figure 21 below).
 
-**Figure 21:** Proven global reserves of uranium. West Africa does not have many known reserves source: Energy Observatory from OECD/IEA 2001.
+![Figure 21. Proven global reserves of uranium. West Africa does not have many known reserves (source: Energy Observatory from OECD/IEA 2001).](../figures/21-figure.png)
+
+*Figure 21. Proven global reserves of uranium. West Africa does not have many known reserves (source: Energy Observatory from OECD/IEA 2001).*
 
 <!-- PDF page 54 -->
 
 ### 2.3.3 Conclusion
 
 Conclusions from a preliminary energy assessment are in Table 10 below:
-**Table 10:** Assessment of Energy supply options for the Accra region.
+**Table 10. Assessment of energy-supply options for the Accra region**
 
-Energy Resource                            Assessment
-Photovoltaic PV                            Very large land area is required to provide
-sufficient energy for this scale of desalination.
-Concentrated Solar Power CSP               Solar radiation resource is not ideal in this
-region compared to North Africa or Middle East.
-Wind                                       Lower end of wind energy classification,
-makes wind energy a possibility but not ideal.
-Geothermal                                 No known geothermal resources near site.
-Recently discovered oil and gas reserves make
-Fossil Fuels                               fossil fuels an important future source of
-energy in Ghana, with the prospect of the country becoming and energy exporter; significant policy commitments to natural gas have been made; environmental concerns with emissions and climate change.
-Ocean                                      The ocean energy resources are not sufficient.
-Salinity gradient power is an interesting prospect for the future.
-Nuclear                                    No current facilities but plans for the future.
-Estimated to be sufficient amounts of biomass
-Biomass                                    available in Ghana for significant bio based
-energy expansion (based on 2011 study); collection would be a problem due to poor roads and lack of organized waste systems.
+| Energy resource | Assessment |
+|---|---|
+| Photovoltaic (PV) | Very large land area is required to provide sufficient energy for this scale of desalination. |
+| Concentrated Solar Power (CSP) | Solar-radiation resource is not ideal in this region compared with North Africa or the Middle East. |
+| Wind | Lower end of wind-energy classification, making wind energy a possibility but not ideal. |
+| Geothermal | No known geothermal resources near the site. |
+| Fossil fuels | Recently discovered oil and gas reserves make fossil fuels an important future source of energy in Ghana, with the prospect of the country becoming an energy exporter; significant policy commitments to natural gas have been made; environmental concerns remain around emissions and climate change. |
+| Ocean | Ocean-energy resources are not sufficient. Salinity-gradient power is an interesting prospect for the future. |
+| Nuclear | No current facilities but plans for the future. |
+| Biomass | Estimated to be sufficient amounts of biomass available in Ghana for significant bio-based energy expansion (based on a 2011 study); collection would be a problem due to poor roads and lack of organized waste systems. |
 
 ## 2.4 Selection of the Optimal Energy Source
 
@@ -473,26 +482,26 @@ energy expansion (based on 2011 study); collection would be a problem due to poo
 
 The selection of the optimal energy source depends on many criteria including energy potential, cost, and environmental impact. A similar multi-criteria decision making tool (as used for the water supply section) is used in an attempt to take the various criteria, both qualitative and quantitative, into account. The criteria are based on methodology previously used for an energy-desalination system (Rujula & Dia, 2010) and include:
 
-i.       Potential: determination of the energy potential with respect to
+1. **Potential:** determination of the energy potential with respect to
 demand.
-ii.      Economic costs: determination of the cost/kWh.
+2. **Economic costs:** determination of the cost/kWh.
 
 <!-- PDF page 55 -->
 
-iii.   Environment: in this criterion, a life cycle approach is used to calculate
-the amount of kg CO2/year emitted by energy sources and evaluate other impacts, including effects on local ecosystems, or chemical discharges to the environment.
-iv.    Adequacy: this criterion is a qualitative assessment of other
+3. **Environment:** in this criterion, a life cycle approach is used to calculate
+the amount of kg CO₂/year emitted by energy sources and evaluate other impacts, including effects on local ecosystems, or chemical discharges to the environment.
+4. **Adequacy:** this criterion is a qualitative assessment of other
 risks/benefits to the technology given both local and global circumstances. Also the potential to couple the energy source to a large desalination facility.
 
 Numerical values are assigned to represent a subjective assessment of each criteria with 0 representing no potential and 9 representing the highest potential:
-**Table 11:** Ranking system adapted from (Rujula & Dia, 2010).
+**Table 11. Ranking system** (adapted from Rujula & Dia, 2010)
 
-Intensity of importance         Definition
-8-9                             Great potential (abundant resource, low cost, little
-environmental impact, socially acceptable, etc)
-5-7                             Intermediate environmental impact, cost, etc.
-1-4                             Low potential, high cost, great environmental impact
-0                               Option does not exist
+| Intensity of importance | Definition |
+|---:|---|
+| 8–9 | Great potential (abundant resource, low cost, little environmental impact, socially acceptable, etc.). |
+| 5–7 | Intermediate environmental impact, cost, etc. |
+| 1–4 | Low potential, high cost, great environmental impact. |
+| 0 | Option does not exist. |
 
 ### 2.4.2 Assigning Coefficients
 
@@ -510,62 +519,51 @@ or electricity grid. It includes the initial capital, discount rate, as well as 
 
 #### 2.4.2.3 Environmental Impact
 
-Environmental impact was based on CO2 emissions gCO2/kWh since global warming is arguably the most pertinent environmental issue associated with energy production and high CO2 emissions are often associated with other harmful emissions. Life cycle greenhouse gas emissions are based on data given by (Sovacool, 2008). Rates based on emissions throughout the lifecycle range from low (ocean/biomass/nuclear) to high (natural gas). Natural gas was also given a lower score due to possible environmental impacts of pipelines.
+Environmental impact was based on CO₂ emissions gCO₂/kWh since global warming is arguably the most pertinent environmental issue associated with energy production and high CO₂ emissions are often associated with other harmful emissions. Life cycle greenhouse gas emissions are based on data given by (Sovacool, 2008). Rates based on emissions throughout the lifecycle range from low (ocean/biomass/nuclear) to high (natural gas). Natural gas was also given a lower score due to possible environmental impacts of pipelines.
 
 #### 2.4.2.4 Adequacy
 
 Finally, adequacy is a qualitative assessment of the technology based on additional considerations not considered above and overall feasibility. Solar was ranked low due to the country’s low existing solar facilities making a large scale solar project in the immediate term unlikely (if these pilot-scale projects are deemed successful a larger plant would be considered). Also, a large land area is required and there is relatively modest irradiance in the area. Nuclear is given a low value due to perceived risk and liability that is not associated with other energy sources13. Natural gas is ranked high (8) because of the existing infrastructure/supply make it more practical in the near term. Co-firing was also ranked high because of the fuel flexibility it offers and residual benefit of developing a biomass infrastructure in the country. Biomass and Cofiring were given intermediate values (6) due to potential challenges with collection and transport of large volumes of biomass and municipal waste. Waste collection in the region is basic and transport infrastructure to biomass-rich rural areas is minimal.
 
-13 The risk of nuclear is subject to much study and debate. The factors considered here relate to the reassessment of the risk in light of the 2011 Fukushima accident and limited supplies of high grade uranium.
+[^13]: The risk of nuclear is subject to much study and debate. The factors considered here relate to the reassessment of the risk in light of the 2011 Fukushima accident and limited supplies of high-grade uranium.
 
 <!-- PDF page 57 -->
 
 #### 2.4.2.5 Summary
 
 Based on these considerations, coefficients (0-9) are assigned for each category:
-**Table 12:** Potential, economic costs, CO2, and adequacy for the various energy sources. AC – assigned coefficient (0-9), LA – low adequacy, A – adequate, VA – very adequate.
+**Table 12. Potential, economic costs, CO₂, and adequacy for the various energy sources**  
+*AC = assigned coefficient (0–9); LA = low adequacy; A = adequate; VA = very adequate.*
 
-Criteria               PV            CSP           Wind                Nat. Gas       Ocean          Biomass        Geothermal         Co-firing        Nuclear
-Energy                 Low           Medium        Moderate (on        High           Low            Moderate       None               High             Very
-Potential              (high         (not          and offshore        (resources     according      (but not       according to       (potential       high
-land area     same          wind                available      to             same           previous           comparable       (very
-required)     potential     classification)     by             previous       potential      studies.           to NG            high
-as in                             pipeline)      studies.       as NG or                          plants)          energy
-North                                                           nuclear)                                           density)
-Africa)
-AC                     4             5             6                   8              2              6              0                  8                9
-Economic Cost          210           312           243                 66             400            113            102                89               114
-(USD/MWh)
-AC                     4             3             4                   8              2              6              5                  7                6
-CO2 emissions          50            50            9                   450            3              14             38                 100              66
-(gCO2/kWh)
-AC                     7             7             8                   4              8              8              7                  6                7
-Adequacy/other         LA            LA            A                   VA             LA             A              LA                 A                LA
-considerations
-AC                     4             5             7                   8              3              6              1                  6                2
+| Criterion | PV | CSP | Wind | Natural gas | Ocean | Biomass | Geothermal | Co-firing | Nuclear |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **Energy potential** | Low | Medium | Moderate | High | Low | Moderate | None | High | Very high |
+| **AC** | 4 | 5 | 6 | 8 | 2 | 6 | 0 | 8 | 9 |
+| **Economic cost (USD/MWh)** | 210 | 312 | 243 | 66 | 400 | 113 | 102 | 89 | 114 |
+| **AC** | 4 | 3 | 4 | 8 | 2 | 6 | 5 | 7 | 6 |
+| **CO₂ emissions (gCO₂/kWh)** | 50 | 50 | 9 | 450 | 3 | 14 | 38 | 100 | 66 |
+| **AC** | 7 | 7 | 8 | 4 | 8 | 8 | 7 | 6 | 7 |
+| **Adequacy / other considerations** | LA | LA | A | VA | LA | A | LA | A | LA |
+| **AC** | 4 | 5 | 7 | 8 | 3 | 6 | 1 | 6 | 2 |
 
 <!-- PDF page 58 -->
 
 ### 2.4.3 Calculating the Product
 
-The weighted product is obtained where wj is set to 1 since all criteria are seen as equally important. According to the equation:
-∏                (Equation 2.4.3)
+The weighted product is obtained with \(w_j = 1\), since all criteria are seen as equally important. Using the same weighted-product formulation:
+
+$$
+P_i = \prod_{j=1}^{n} AC_{ij}^{w_j}
+$$
+
+*Equation 2.4.3.*
 
 See previous equation for abbreviations and source. By multiplying the coefficients for each section, the following weights are obtained:
 
-2500
 
-2000
+![Figure 22. Potential energy sources to couple to a desalination system (see Appendix for data).](../figures/22-figure.png)
 
-1500
-
-1000
-
-500
-
-0
-
-**Figure 22:** Potential energy sources to couple to a desalination system (see appendix for data).
+*Figure 22. Potential energy sources to couple to a desalination system (see Appendix for data).*
 
 ### 2.4.4 Conclusion
 
@@ -588,9 +586,9 @@ The choice of system will depend on a number of factors including type and quali
 
 Both MSF and MED require low pressure heating steam which can be extracted from a thermal power plant. Vapour Compression and Reverse Osmosis run entirely on electrical energy. Energy costs are cited as being lower in MED than MSF; for plants of smaller size, MED is cited as being the more simple and cost effective option. A summary of the criteria is found in the table below:
 
-Some literature claims cost reductions and energy savings with a hybrid desalination systems which integrate both MED/MSF and RO, utilizing both electrical power from a generator and the waste thermal heat. A hybrid system is cited as having a number of advantages including increased plant efficiency, minimization of CO2 emissions, minimization of pre-treatment costs and minimization of membrane costs (Cardona, Piacentino, & Marchese, 2007).
+Some literature claims cost reductions and energy savings with a hybrid desalination systems which integrate both MED/MSF and RO, utilizing both electrical power from a generator and the waste thermal heat. A hybrid system is cited as having a number of advantages including increased plant efficiency, minimization of CO₂ emissions, minimization of pre-treatment costs and minimization of membrane costs (Cardona, Piacentino, & Marchese, 2007).
 
-14 Other methods of desalination exist including crystallization, freezing, membrane distillation, nanofiltration, geothermal desalination, humidification; but these are not considered here. 15 Modern Water PLC designed and deployed a 100m3/day FO plant in Oman in July 2009. Despite numerous challenges, the company claims successful operation of the site with a recovery rate of 35% (Thompson; Nicoll, 2011).
+14 Other methods of desalination exist including crystallization, freezing, membrane distillation, nanofiltration, geothermal desalination, humidification; but these are not considered here. 15 Modern Water PLC designed and deployed a 100m³/day FO plant in Oman in July 2009. Despite numerous challenges, the company claims successful operation of the site with a recovery rate of 35% (Thompson; Nicoll, 2011).
 
 <!-- PDF page 60 -->
 
@@ -598,7 +596,7 @@ However, these claims are contested (Kamal, 2008); it is argued that when steam 
 
 ### 2.5.1 Multi-Criteria Analysis
 
-In the selection of the most appropriate desalination system, a similar multi- criteria analysis to that used for energy is employed. Both brackish groundwater and seawater sources are considered. Costs are broken down into investment and O&M and data is available for the literature (euro/m3). Environmental aspects caused by desalination facilities include brine, noise pollution, corrosion of materials and impact on marine ecosystems (through brine discharge, water intake facilities, and temperature change of discharge water).
+In the selection of the most appropriate desalination system, a similar multi- criteria analysis to that used for energy is employed. Both brackish groundwater and seawater sources are considered. Costs are broken down into investment and O&M and data is available for the literature (euro/m³). Environmental aspects caused by desalination facilities include brine, noise pollution, corrosion of materials and impact on marine ecosystems (through brine discharge, water intake facilities, and temperature change of discharge water).
 
 ### 2.5.2 Assigning Coefficients
 
@@ -610,7 +608,7 @@ For the cost of brackish water desalination there is a slight advantage of ED ov
 
 Environmental considerations with desalination include energy use, chemical use (for pre- and post-treatment), impact of water intake facilities, and impact of saline brine disposal. Most of these concerns are common to all large desalination facilities and there is little evidence that any one is preferable from an environmental standpoint; sources such as (Younos, 2005) discuss concerns
 
-16 The cost of thermal desalination needs to take into account the power that could have been produced by not extracti6ng the steam: “Steam withdrawn from the low pressure sections of a steam turbine is not cheap. A large portion of the power output in steam turbines is produced in the low pressure sections. The withdrawal of low-pressure steam for process use imposes a substantial penalty on the power output of the steam turbine” (Kamal, 2008).
+[^16]: The cost of thermal desalination needs to take into account the power that could have been produced by not extracting the steam: “Steam withdrawn from the low pressure sections of a steam turbine is not cheap. A large portion of the power output in steam turbines is produced in the low pressure sections. The withdrawal of low-pressure steam for process use imposes a substantial penalty on the power output of the steam turbine” (Kamal, 2008).
 
 <!-- PDF page 61 -->
 
@@ -618,7 +616,7 @@ common to all plants with some variance based on plant type. Specific energy con
 
 #### 2.5.2.3 Volume
 
-Compared to the alternatives, Reverse Osmosis and MSF are more often used to supply large volumes of water. The capacity of RO systems can easily be increased by adding modules. Electrodialysis is usually suitable for brackish waters of salinities up to 12,000 mg/l, therefore the high volume seawater is not as feasible. Due to design, MED plants are generally smaller capacity than MSF, with the largest plants being <70,000m3/day. Vapour compression is limited to small applications <5,000m3/day.
+Compared to the alternatives, Reverse Osmosis and MSF are more often used to supply large volumes of water. The capacity of RO systems can easily be increased by adding modules. Electrodialysis is usually suitable for brackish waters of salinities up to 12,000 mg/L, therefore the high volume seawater is not as feasible. Due to design, MED plants are generally smaller capacity than MSF, with the largest plants being <70,000m³/day. Vapour compression is limited to small applications <5,000m³/day.
 
 #### 2.5.2.4 Cogeneration Compatibility
 
@@ -629,52 +627,33 @@ The ease with which the technology could be integrated into cogeneration of powe
 #### 2.5.2.5 Summary
 
 Based on above considerations, the following values are assigned in Table 13 below.
-**Table 13:** Economic, maintenance and environmental costs of desalination technologies adapted from (Rujula & Dia, 2010).
+**Table 13. Economic, maintenance, and environmental costs of desalination technologies** (adapted from Rujula & Dia, 2010)
 
-Technology         Costs            AC       O&M               AC         Environment                   AC        Volume m3/day   AC   Cogen.
-USD/m3                    USD/m3                                                                                    (AC)
-RO                 0.15-0.37        7        0.06-0.13         6          Fauna and flora; brine; 4               >100,000        4    4
-(brackish)                                             intake; marine
-ecosystem
-0.37-0.78        4        0.06-0.13         6          Fauna and Flora;        3.5             50-100,000      8    8
-(seawater)                                             brine; intake; marine
-ecosystem
-ED                 0.16-0.30        7        <0.06-0.13        6          Fauna and flora; brine; 4               50,000          4    4
-(brackish)                                             intake; marine
-ecosystem
-
-MSF                0.60-1.07        3        0.05-0.10         7          Intake; brine; marine         3         >60,000         9    7
-ecosystem
-MED                0.42-0.71        3        0.05-0.10         7          Intake; brine, marine         3         <30,000         7    7
-ecosystem
-VC                 0.78-1.05        1        <0.05-0.10        8          Intake; brine, marine         3         <5,000          3    5
-ecosystem
+| Technology | Cost (USD/m³) | Cost AC | O&M (USD/m³) | O&M AC | Environmental considerations | Env. AC | Volume (m³/day) | Volume AC | Cogeneration AC |
+|---|---:|---:|---:|---:|---|---:|---:|---:|---:|
+| RO (brackish) | 0.15–0.37 | 7 | 0.06–0.13 | 6 | Fauna and flora; brine; intake; marine ecosystem | 4 | >100,000 | 4 | 4 |
+| RO (seawater) | 0.37–0.78 | 4 | 0.06–0.13 | 6 | Fauna and flora; brine; intake; marine ecosystem | 3.5 | 50,000–100,000 | 8 | 8 |
+| ED (brackish) | 0.16–0.30 | 7 | <0.06–0.13 | 6 | Fauna and flora; brine; intake; marine ecosystem | 4 | 50,000 | 4 | 4 |
+| MSF | 0.60–1.07 | 3 | 0.05–0.10 | 7 | Intake; brine; marine ecosystem | 3 | >60,000 | 9 | 7 |
+| MED | 0.42–0.71 | 3 | 0.05–0.10 | 7 | Intake; brine; marine ecosystem | 3 | <30,000 | 7 | 7 |
+| VC | 0.78–1.05 | 1 | <0.05–0.10 | 8 | Intake; brine; marine ecosystem | 3 | <5,000 | 3 | 5 |
 
 <!-- PDF page 63 -->
 
 ### 2.5.3 Calculating the Product
 
 To optimize, the weighted product is calculated and plotted using:
-∏                    (Equation 2.5.3)
 
-7000
+$$
+P_i = \prod_{j=1}^{n} AC_{ij}^{w_j}
+$$
 
-6000
+*Equation 2.5.3.*
 
-5000
 
-4000
+![Figure 23. Weighted product for desalination method.](../figures/23-figure.png)
 
-3000
-
-2000
-
-1000
-
-0
-RO brackish RO seawater            ED            MSF   MED     VC
-
-**Figure 23:** Weighted product for desalination method.
+*Figure 23. Weighted product for desalination method.*
 
 ### 2.5.4 Conclusion
 
@@ -682,25 +661,30 @@ Based on the analysis, Reverse Osmosis of seawater is the optimal desalination t
 
 ## 2.6 System Coupling
 
-The values from the energy source analysis are multiplied through the coefficients for desalination (above) to obtain values for the coupling of energy sources with various desalination technologies, based on both brackish and seawater sources.
+The values from the energy-source analysis are multiplied by the coefficients for desalination to obtain values for coupling energy sources with various desalination technologies, based on both brackish- and seawater sources:
 
-∏                       (Equation 2.6.i)
+$$
+P_{E,D} = P_E \times P_D
+$$
+
+*Equation 2.6.i — notation reconstructed from the surrounding text; consult the original PDF for the exact typeset form.*
 
 <!-- PDF page 64 -->
 
 The weights are calculated and the data is graphed and shows that natural gas coupled with RO desalination of seawater obtains the highest rank.
 
-14000000 Max 12000000 10000000 RO-brackish 8000000
-## Ed
-6000000 RO-seawater
-4000000                                                                         MSF-seawater
-2000000                                                                         MED-seawater
-0                                                                       VC-seawater
 
-**Figure 24:** Coupling energy source with desalination reveals that Natural Gas and RO is optimal.
+![Figure 24. Coupling energy source with desalination reveals that natural gas and RO is optimal.](../figures/24-figure.png)
 
-Given the 7 identified water supply possibilities, 9 energy supply alternatives, and 6 possible methods of desalination, a total of 198 different water/power combinations are possible. An analysis of the combinations is done by the formula:
-∏                                   (Equation 2.6.ii)
+*Figure 24. Coupling energy source with desalination reveals that natural gas and RO is optimal.*
+
+Given the seven identified water-supply possibilities, nine energy-supply alternatives, and six possible methods of desalination, a total of 198 different water/power combinations are possible. The combined score is obtained by multiplying the component weighted-product scores:
+
+$$
+P_{W,E,D} = P_W \times P_E \times P_D
+$$
+
+*Equation 2.6.ii — notation reconstructed from the surrounding text; consult the original PDF for the exact typeset form.*
 
 Plotting summarizes the previous conclusions: seawater coupled with natural gas as a power source and reverse osmosis as a desalination method is an optimal choice (see Figure 25).
 
@@ -717,34 +701,10 @@ from Nigeria; many renewable energy sources could present problems with scale an
 - Reverse Osmosis presents advantages in terms of cost, volume capacity,
 and modularity. Combination with a thermal power plant could provide additional cost savings. A recent study suggests cogeneration with membrane systems is more efficient (from a thermodynamic and cost standpoint) than thermal cycles.
 
-1.2E+11                                             1.04045E+11
-## 1E+11
-## 8E+10
-## 6E+10
-## 4E+10
-## 2E+10
-0
-## Pv-Ro
-## Pv-Msf
-## Csp-Ro
-## Csp-Msf
-Wind-RO Wind-MSF
-## Ng-Ro
-## Ng-Msf
-Ocean-RO Ocean-MSF Biomass-RO Biomass-MSF Geotherm-RO
 
-Gerotherm-MSF
+![Figure 25. The summary graph shows the optimum combination of reverse osmosis of seawater powered by natural gas.](../figures/25-figure.png)
 
-Cofiring-RO
-
-Cofiring-MSF
-
-Nuclear-RO
-
-Nuclear-MSF
-Groundwater                                  Wastewater Recycling                                                                Seawater
-
-**Figure 25:** The summary graph shows the optimum combination of reverse osmosis of seawater, powered by natural gas.
+*Figure 25. The summary graph shows the optimum combination of reverse osmosis of seawater powered by natural gas.*
 
 ## 2.7 Conclusion
 
