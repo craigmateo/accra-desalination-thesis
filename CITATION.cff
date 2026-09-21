@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata below."
+title: "Systems Analysis of Power and Water Cogeneration in Accra, Ghana: 2013 Master's Thesis with 2026 Retrospective"
+type: dataset
+authors:
+  - family-names: Frayne
+    given-names: Craig
+date-released: 2026-09-21
+version: "1.0.0"
+repository-code: "https://github.com/YOUR-USERNAME/accra-desalination-thesis"
+abstract: >
+  Historical publication of a 2013 master's thesis examining water-energy
+  infrastructure and seawater desalination in Accra, Ghana, accompanied by
+  a 2026 retrospective on the subsequent history of the Teshie-Nungua
+  desalination project.
+keywords:
+  - desalination
+  - Accra
+  - Ghana
+  - water infrastructure
+  - water-energy nexus
+  - reverse osmosis
+  - systems analysis
+  - infrastructure policy
+  - water access
+  - water affordability
