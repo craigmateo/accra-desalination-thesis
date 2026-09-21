@@ -27,11 +27,11 @@ institutions, maintenance, governance, and access.
 
 ## Contents
 
-- `thesis/` — original 2013 master's thesis
-- `presentation/` — original 2013 presentation materials
+- `original/` — original 2013 master's thesis
+    - `thesis/` — original 2013 master's thesis
+    - `presentation/` — original 2013 presentation materials
+    - `figures/` — selected original figures created for the thesis
 - `retrospective/` — 2026 retrospective essay
-- `figures/original/` — selected original figures created for the thesis
-- `references/` — sources used for the retrospective
 
 ## Important distinction
 
